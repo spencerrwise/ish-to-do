@@ -20,7 +20,7 @@
 		self.font = [UIFont fontWithName:@"Futura" size:18.0f];
 		self.tintColor = [UIColor colorWithRed:232/255.0 green:119/255.0 blue:79/255.0 alpha:1.0];
 
-        self.placeholder = @"What ish you want to do?";
+        self.placeholder = @"What ish do you want to do?";
     }
     return self;
 }

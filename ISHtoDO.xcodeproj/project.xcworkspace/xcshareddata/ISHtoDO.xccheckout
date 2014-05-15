@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AE0534C9-401D-4CC0-9981-15823170EEBF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ISHtoDO</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3302997D-48DC-4144-8B35-FF5CEABAA8E3</key>
+		<string>https://github.com/spencerwencer/ish-to-do.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ISHtoDO.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3302997D-48DC-4144-8B35-FF5CEABAA8E3</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/spencerwencer/ish-to-do.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3302997D-48DC-4144-8B35-FF5CEABAA8E3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3302997D-48DC-4144-8B35-FF5CEABAA8E3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ish-to-do</string>
+		</dict>
+	</array>
+</dict>
+</plist>
