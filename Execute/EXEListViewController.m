@@ -43,13 +43,13 @@
     [super viewDidLoad];
     
     
-    //self.title = @"ISHtoDO";
+    self.title = @"ISHtoDO";
     
     
 	[self.tableView registerClass:[EXETaskTableViewCell class] forCellReuseIdentifier:@"cell"];
     
     
-    self.tableView.backgroundColor = [UIColor colorWithRed:221/255.0 green:221/255.0 blue:221/255.0 alpha:1.0];
+    self.tableView.backgroundColor = [UIColor colorWithRed:240/255.0 green:245/255.0 blue:247/255.0 alpha:1.0];
     
     [self.tableView registerClass: [EXETaskTableViewCell class] forCellReuseIdentifier:@"cell"];
     
@@ -59,7 +59,8 @@
     self.tableView.rowHeight = 60.0f;
     self.tableView.tableHeaderView = self.textField;
     
-    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Logo"]];
+    //self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Logo"]];
+
    
     
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Edit" style:UIBarButtonItemStylePlain target:self action:@selector(toggleEdit:)];

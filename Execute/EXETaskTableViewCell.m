@@ -26,16 +26,16 @@
 
 - (void) setCompleted:(BOOL)completed{
     _completed = completed;
-    self. backgroundColor = [UIColor colorWithRed:221/255.0 green:221/255.0 blue:221/255.0 alpha:1.0];
+    self. backgroundColor = [UIColor colorWithRed:240/255.0 green:245/255.0 blue:247/255.0 alpha:1.0];
     
     if (_completed) {
         self.textLabel.textColor = [UIColor colorWithWhite:0.75 alpha:1.0];
-        self.backgroundColor = [UIColor colorWithRed:221/255.0 green:221/255.0 blue:221/255.0 alpha:1.0];
+        [UIColor colorWithRed:240/255.0 green:245/255.0 blue:247/255.0 alpha:1.0];
 
         
     } else {
         self.textLabel.textColor = [UIColor whiteColor];
-        self.backgroundColor = [UIColor colorWithRed:232/255.0 green:119/255.0 blue:79/255.0 alpha:1.0];
+        self.backgroundColor = [UIColor colorWithRed:65/255.0 green:229/255.0 blue:119/255.0 alpha:1.0];
     }
 }
 
@@ -57,10 +57,10 @@
 	if ((self = [super initWithStyle:style reuseIdentifier:reuseIdentifier])) {
 		self.backgroundColor = [UIColor colorWithRed:221/255.0 green:221/255.0 blue:221/255.0 alpha:1.0];
         
-		self.textLabel.font = [UIFont fontWithName:@"Futura-Medium" size:18.0f];
+		self.textLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:18.0f];
         
 		UIView *view = [[UIView alloc] init];
-		view.backgroundColor = [UIColor colorWithRed:37/255.0 green:42/255.0 blue:58/255.0 alpha:1.0];
+		view.backgroundColor = [UIColor colorWithRed:39/255.0 green:183/255.0 blue:87/255.0 alpha:1.0];
         //view.backgroundColor = [UIColor colorWithRed:221/255.0 green:221/255.0 blue:221/255.0 alpha:1.0];
 		self.selectedBackgroundView = view;
 	}

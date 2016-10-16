@@ -51,7 +51,7 @@
     [super viewDidLoad];
 
     self.title = @"Edit";
-    self.view.backgroundColor   = [UIColor colorWithRed:232/255.0 green:119/255.0 blue:79/255.0 alpha:1.0];
+    self.view.backgroundColor   = [UIColor colorWithRed:65/255.0 green:229/255.0 blue:119/255.0 alpha:1.0];
     self.textField.backgroundColor = [UIColor whiteColor];
     
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSave target:self action:@selector(save:)];

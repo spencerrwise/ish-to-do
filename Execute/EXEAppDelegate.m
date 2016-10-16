@@ -14,7 +14,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
@@ -22,16 +22,16 @@
     self.window.backgroundColor = [UIColor colorWithRed:221/255.0 green:221/255.0 blue:221/255.0 alpha:1.0];
     
     UINavigationBar *navigationBar = [UINavigationBar appearance];
-	navigationBar.barTintColor = [UIColor colorWithRed:37/255.0 green:42/255.0 blue:58/255.0 alpha:1.0];
-	navigationBar.tintColor = [UIColor colorWithWhite:1.0f alpha:1.0f];
+	navigationBar.barTintColor = [UIColor colorWithRed:242/255.0 green:242/255.0 blue:242/255.0 alpha:1.0];
+	navigationBar.tintColor = [UIColor colorWithRed:70/255.0 green:79/255.0 blue:84/255.0 alpha:1.0];
 	navigationBar.titleTextAttributes = @{
-                                          NSForegroundColorAttributeName: [UIColor whiteColor],
-                                          NSFontAttributeName: [UIFont fontWithName:@"Futura" size:26.0f]
+                                          NSForegroundColorAttributeName: [UIColor colorWithRed:70/255.0 green:79/255.0 blue:84/255.0 alpha:1.0],
+                                          NSFontAttributeName: [UIFont fontWithName:@"HelveticaNeue" size:18.0f]
                                           };
 
     UIBarButtonItem *barButtonItem = [UIBarButtonItem appearance];
 	[barButtonItem setTitleTextAttributes:@{
-                                            NSFontAttributeName: [UIFont fontWithName:@"Futura" size:16.0f]
+                                            NSFontAttributeName: [UIFont fontWithName:@"HelveticaNeue" size:16.0f]
                                             } forState:UIControlStateNormal];
     
     UIViewController *viewController = [[EXEListViewController alloc] init];

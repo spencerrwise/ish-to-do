@@ -17,8 +17,8 @@
 		self.textColor = [UIColor blackColor];
 		self.textAlignment = NSTextAlignmentCenter;
 		self.returnKeyType = UIReturnKeyGo;
-		self.font = [UIFont fontWithName:@"Futura" size:18.0f];
-		self.tintColor = [UIColor colorWithRed:232/255.0 green:119/255.0 blue:79/255.0 alpha:1.0];
+		self.font = [UIFont fontWithName:@"HelveticaNeue" size:18.0f];
+		self.tintColor = [UIColor colorWithRed:65/255.0 green:229/255.0 blue:119/255.0 alpha:1.0];
 
         self.placeholder = @"What ish do you want to do?";
     }
