@@ -215,7 +215,7 @@
 				ORGANIZATIONNAME = "Dos Leches";
 				TargetAttributes = {
 					E385374518D835D700E5379B = {
-						DevelopmentTeam = 4Y5F6F964T;
+						DevelopmentTeam = JBY62V42JM;
 					};
 					E385376018D835D800E5379B = {
 						DevelopmentTeam = 4Y5F6F964T;
@@ -403,10 +403,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JBY62V42JM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Execute/ISHtoDO-Prefix.pch";
 				INFOPLIST_FILE = "Execute/ISHtoDO-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dosleches.ishtodo;
 				PRODUCT_NAME = ISHtoDO;
 				PROVISIONING_PROFILE = "";
@@ -421,10 +422,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JBY62V42JM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Execute/ISHtoDO-Prefix.pch";
 				INFOPLIST_FILE = "Execute/ISHtoDO-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dosleches.ishtodo;
 				PRODUCT_NAME = ISHtoDO;
 				PROVISIONING_PROFILE = "";
